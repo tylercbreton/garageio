@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(version: 20140723024457) do
     t.string   "make"
     t.string   "model"
     t.integer  "year"
+    t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
